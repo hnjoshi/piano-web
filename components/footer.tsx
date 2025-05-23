@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <h3 className="mb-4 text-lg font-medium">Music Academy</h3>
             <p className="mb-4 text-sm text-muted-foreground">
-              Providing quality music education for students of all ages and skill levels since 2005.
+              Providing quality music education for students of all ages and skill levels since 2015.
             </p>
             <div className="flex space-x-4">
               {/* <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
@@ -87,10 +87,15 @@ export default function Footer() {
             </p>
             <div className="space-y-3">
               <Button className="w-full relative overflow-hidden group" asChild>
-                <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">
-                  <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-primary/50 to-primary transition-all duration-300 group-hover:opacity-0"></span>
-                  <span className="relative">WhatsApp Us</span>
-                </a>
+               <Link
+  href="https://wa.me/918000119609?text=Hi%2C%20I%20have%20a%20question%20regarding%20your%20piano%20classes."
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-primary/50 to-primary transition-all duration-300 group-hover:opacity-0"></span>
+  <span className="relative">Contact Us on WhatsApp</span>
+</Link>
+
               </Button>
               <Button variant="outline" className="w-full backdrop-blur-sm bg-background/50" asChild>
                 <a href="tel:+918000119609">Call Us</a>
