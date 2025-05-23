@@ -17,12 +17,16 @@ export default function HeroBanner() {
             </p>
             <div className="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
               <Button size="lg" className="relative overflow-hidden group" asChild>
-                <Link   href={`https://wa.me/919876543210`}
-        target="_blank"
-        rel="noopener noreferrer">
-                  <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-primary/50 to-primary transition-all duration-300 group-hover:opacity-0"></span>
-                  <span className="relative">Book a Free Trial Lesson</span>
-                </Link>
+               <Link
+  href="https://wa.me/918000119609?text=Hi%2C%20I%20would%20like%20to%20book%20a%20free%20trial%20piano%20class."
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-primary/50 to-primary transition-all duration-300 group-hover:opacity-0"></span>
+  <span className="relative">Book a Free Trial Lesson</span>
+</Link>
+
+
               </Button>
              
             </div>

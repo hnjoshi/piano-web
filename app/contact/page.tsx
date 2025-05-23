@@ -82,7 +82,7 @@ export default function ContactPage() {
                   <p className="text-muted-foreground mb-4">Chat with us instantly</p>
                   <p className="text-lg font-medium">+91 8000119609</p>
                   <Button className="mt-6 w-full relative overflow-hidden group" asChild>
-                    <a href="https://wa.me/918000119609" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/918000119609?text=Hi%2C%20I%20have%20a%20question%20regarding%20your%20piano%20classes." target="_blank" rel="noopener noreferrer">
                       <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-primary/50 to-primary transition-all duration-300 group-hover:opacity-0"></span>
                       <span className="relative">WhatsApp Now</span>
                     </a>

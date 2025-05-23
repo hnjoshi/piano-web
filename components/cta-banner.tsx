@@ -16,7 +16,9 @@ export default function CtaBanner() {
           </div>
           <Button size="lg" variant="secondary" className="relative overflow-hidden group" asChild>
       <Link
-        href={`https://wa.me/919876543210`}
+       href="https://wa.me/918000119609?text=Hi%2C%20I%20would%20like%20to%20book%20a%20free%20trial%20piano%20class."
+
+
         target="_blank"
         rel="noopener noreferrer"
       >

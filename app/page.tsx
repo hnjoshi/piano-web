@@ -9,6 +9,7 @@ import FaqSection from "@/components/faq-section"
 import CtaBanner from "@/components/cta-banner"
 import Footer from "@/components/footer"
 import CertificationSection from "@/components/CertificationSection"
+import TermsSection from "@/components/terms-section"
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
@@ -22,6 +23,7 @@ export default function Home() {
         <WhyChooseUsSection />
         <CertificationSection />
         <FaqSection />
+          <TermsSection />
         <CtaBanner />
       </main>
       <Footer />
